@@ -25,6 +25,14 @@ buildscript {
     }
 }
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
 allprojects {
     apply plugin: "com.jfrog.artifactory"
 }
