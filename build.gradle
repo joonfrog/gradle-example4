@@ -70,4 +70,5 @@ artifactory {
             maven = true
 
         }
+    }
 }
